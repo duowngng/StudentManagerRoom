@@ -9,5 +9,7 @@ data class Student(
   @PrimaryKey(autoGenerate = true)
   val _id: Int = 0,
   val hoten: String,
-  val mssv: String
+  val mssv: String,
+  val ngaysinh: String,
+  val email: String
 )
